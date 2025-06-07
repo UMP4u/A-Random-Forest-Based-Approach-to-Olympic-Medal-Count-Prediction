@@ -1,5 +1,6 @@
 # A-Random-Forest-Based-Approach-to-Olympic-Medal-Count-Prediction
 A Random Forest-Based Approach to Olympic Medal Count Prediction
+
 This study builds a random forest regression model based on data from the Summer Olympic Games between 1960 and 2016, aiming to predict the total number of medals each country would win in the 2020 Olympics. After cleaning and filtering the dataset, certain Olympic years affected by political factors were excluded. The total counts of gold, silver, and bronze medals were used as features for modeling.
 
 The model was validated using data from the 2016 Olympics. Evaluation metrics included Mean Squared Error (MSE) and the coefficient of determination ($R^2$). Experimental results show that the model performs well on the validation set, achieving an $R^2$ of 0.96 and an MSE of 70.70, indicating strong fitting ability.
